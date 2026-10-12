@@ -3,7 +3,7 @@ import requests
 url = "http://lookup.thm/" # Change this :))
 file_path = "/usr/share/SecLists/Usernames/Names/names.txt" # My list of Usernames  U shoulda change it in ur case </3
 try :
-    with open ("file_path" , "r") as file :
+    with open (file_path , "r") as file :
         for line in file : 
             username = line.strip()
             if not username :
